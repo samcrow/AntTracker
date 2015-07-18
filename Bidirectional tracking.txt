@@ -1,0 +1,13 @@
+Bidirectional tracking:
+
+Forward from the earlier point
+
+Backwards from the later point
+
+Join the tracks at the midpoint
+    The midpoint is at the frame where the forward tracking result and the
+    backward tracking result are closest (in distance)
+
+The resulting trajectory is
+    Points from forward tracking, up to and including the midpoint frame
+    Points from backward tracking, after the midpoint frame
